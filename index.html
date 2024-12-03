@@ -18,17 +18,21 @@
   </head>
   <body>
     <header>
+      <!--контейнер для хедера --> 
+      <div class="container">
       <nav class="header">
         <a class="header-link-logo" href="./index.html"
           >Web<span class="header-highlight">Studio</span></a
         >
         <ul class="header-list">
-          <li>
+          <li class="header-list-item">
             <a class="header-link active-link" href="./index.html">Studio</a>
           </li>
+          <li class="header-list-item">
           <li><a class="header-link active-link" href="">Portfolio</a></li>
+          <li class="header-list-item">
           <li><a class="header-link active-link" href="">Contacts</a></li>
-        </ul>
+        </ul> 
       </nav>
       <address class="address">
         <ul class="address-list">
@@ -44,14 +48,19 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <main>
       <!--Section 1-->
-      <section class="hero">
+      <!--контейнер для секции 1 -->
+      <div class="container">
+        <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="button-order" type="button">Order Service</button>
-      </section>
+      </section></div>
+      
       <!--Section 2-->
+      <div class="container">
       <section class="about">
         <h2 class="visually-hidden">Advantages</h2>
         <ul class="about-list">
@@ -85,7 +94,9 @@
           </li>
         </ul>
       </section>
+      </div>
       <!--Section 3 Our Team-->
+      <div>
       <section class="team">
         <h2 class="team-main-title">Our Team</h2>
         <ul class="team-list">
@@ -134,8 +145,10 @@
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
-      <!--Section 3  Portfolio=====-->
+      <!--Section 4  Portfolio=====-->
+      <div class="container">
       <section class="portfolio">
         <h2 class="portfolio-main-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -207,7 +220,9 @@
           </li>
         </ul>
       </section>
+      </div>
     </main>
+    <div class="container">
     <footer class="footer">
       <a class="footer-link-logo" href="./index.html"
         >Web<span class="footer-highlight">Studio</span></a
@@ -217,5 +232,6 @@
         marketing & growth solutions.
       </p>
     </footer>
+    </div>
   </body>
 </html>
