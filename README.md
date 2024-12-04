@@ -21,4 +21,9 @@ text-decoration: none;
 }
 button {
 cursor: pointer;
-}
+
+:;""''для рамки хедера|
+border-bottom: 1px solid #e7e9fc;
+width: 1440px;
+height: 72px;
+background: #fff;

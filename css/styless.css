@@ -31,6 +31,21 @@ body {
   button {
     cursor: pointer;
   }
+  .main-container{
+    display: block;
+    flex-direction: column;
+    width: 1158px;
+    margin-bottom: 0;
+    min-height: 100vh;
+  }
+  .header-container {display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+    background: #fff;
+    align-content: center;
+}
+
 .header-link-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -39,6 +54,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  justify-content: flex-start;
 }
 .header-highlight {
   color: #2e2f42;
@@ -67,23 +83,42 @@ body {
 .address-link:focus {
   color: #404bbf;
 }
+
 .hero {
   background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  padding-bottom: 120px;
 }
 .hero-title {
+  display: block;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  margin-bottom: 48px;
+ margin-right: 472px;
+ margin-left: 472px;
+ 
 }
 .button-order {
+  display: block;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  border: none;
+  border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    margin-bottom: 188px;
+    margin-right: auto;
+   margin-left: auto;
 }
 .button-order:hover,
 .button-order:focus {
@@ -92,6 +127,16 @@ body {
 .about {
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .about-list {
 }
