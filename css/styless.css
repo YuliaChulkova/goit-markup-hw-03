@@ -218,31 +218,29 @@ body {
 .team-list {display: flex;
   gap: 24px;
   border-radius: 0 0 4px 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .team-item {
   background: #fff;
+  width: calc((100% - 72px) / 4);
+  align-items: center;
+  text-align: center;
 }
 .team-img {display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
-.team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
+
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
 .team-list-cotainer {
+  display: block;
   padding: 32px 16px;
-  ;
 }
 .portfolio {
 }
