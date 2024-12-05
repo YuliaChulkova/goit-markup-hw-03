@@ -201,6 +201,7 @@ body {
   padding: 120px 0;
 }
 .team-container {
+  padding: 32px 0;
   
 }
 .team-main-title {
@@ -217,7 +218,6 @@ body {
 }
 .team-list {display: flex;
   gap: 24px;
-  border-radius: 0 0 4px 4px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -226,21 +226,26 @@ body {
   width: calc((100% - 72px) / 4);
   align-items: center;
   text-align: center;
+  border-radius: 0 0 4px 4px;
 }
 .team-img {display: block;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
 }
-
+.team-list-cotainer {
+  display: block;
+  padding: 32px 16px;
+}
+.team-title {
+  margin-bottom: 8px
+}
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.team-list-cotainer {
-  display: block;
-  padding: 32px 16px;
+
 }
 .portfolio {
 }
