@@ -120,14 +120,13 @@ body {
 
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 .hero-container{
   display: block;
-  padding: 188px 0;
+  
 }
 .hero-title {
-  display: block;
- 
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
@@ -178,11 +177,14 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.about-list {
+.about-list {display: flex;
+  gap: 24px;
 }
 .about-item {
+  width: 264px;
 }
 .about-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
