@@ -3,7 +3,8 @@ body {
     background-color: white;
     color: #434455;
   }
-
+ 
+  /* скидання */
   h1,
   h2,
   h3,
@@ -11,17 +12,16 @@ body {
   h5,
   h6,
   p {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+   
   }
 
   ul,
   ol {
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
+  
   }
 
   a {
@@ -31,35 +31,38 @@ body {
   button {
     cursor: pointer;
   }
+  /* загальні */
   .main-container{
     display: block;
     flex-direction: column;
     width: 1158px;
     margin-bottom: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+  }
+    .container {
+      max-width: 1158px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+  /* хедер */
+  .header {
+    border-bottom: 1px solid #e7e9fc;
   }
   .header-container {
     display: flex;
-      flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
-  width: 1128px;
-    background: #fff;
-    align-content: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    align-items: center;
+    padding: 0 15px;
     margin-right: auto;
     margin-left: auto;
+    background: #fff;
 }
 .header-nav{
   display: flex;
-  justify-content: space-between;
-  gap: 76px;
-  padding-top: 24px;
-    padding-bottom: 24px;
+  align-items: center;
 }
 .header-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .header-link-logo {
@@ -71,15 +74,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
-
-
+  margin-right: 76px;
+    padding: 24px 0;
 }
 .header-highlight {
   color: #2e2f42;
 }
 .header-link {
   display: block;
- 
+  padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -91,20 +94,19 @@ body {
   color: #404bbf;
 }
 .address {
-  display: block;
-  
+  display: flex;
+    align-items: center;
   font-style: normal;
+  margin-left: auto;
   
 }
 .address-list {
   display: flex;
-width: 344px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  align-items: center;
   gap: 40px;
-justify-content: space-between;
 }
 .address-link {
+  padding: 24px 0;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
