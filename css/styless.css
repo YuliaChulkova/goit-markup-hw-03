@@ -317,11 +317,10 @@ body {
   display: block;
   text-align: left;
 }
-.footer-link {
-display: inline-block;
-margin-bottom: 16px;
-}
+
 .footer-link-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-weight: 700;
